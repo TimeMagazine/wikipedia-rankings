@@ -1,9 +1,9 @@
 wikipedia-rankings
 ==================
 
-Support files for [TIME's ranking of the prominent people on Wikipedia](http://ti.me/1nx24ty);
+Support files for [TIME's ranking of the prominent people on Wikipedia](http://ti.me/1nx24ty).
 
-Data was collected over several days in May using [node-wikipedia](https://www.npmjs.org/package/node-wikipedia), a Node.js module maintained by @wilson428.
+Data was collected over several days in May using [node-wikipedia](https://www.npmjs.org/package/node-wikipedia), a Node.js module maintained by [@wilson428](https://github.com/wilson428).
 
 We considered eight data points for each entry:
 
@@ -16,7 +16,7 @@ We considered eight data points for each entry:
 + Number of anonymous edits
 + Number of vandalisms, as identified in editing notes 
 
-Data for the top 100,000-or-so people is available as a 15MB CSV file in [this repo](/people.csv).
+Data for the top 100,000-or-so people is available as a [15MB CSV file](/people.csv).
 
 ## Analysis
 
