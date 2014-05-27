@@ -9,8 +9,9 @@ write(toJSON(sapply(data[-(1:5)],sd)), file="sd.json")
 
 standardized = as.data.frame(scale(data[-(1:5)]))
 
-
 ranking = prcomp(standardized)
+
+screeplot(ranking, type="lines")
 
 
 write(toJSON(ranking$rotation), file="pca.json")
